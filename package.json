@@ -1,6 +1,6 @@
 {
-  "name": "typescript-boilerplate-2021",
-  "version": "0.4.2",
+  "name": "simple-grid",
+  "version": "0.1.1",
   "description": "Boilerplate for TypeScript projects (Node.js and browser modules)",
   "author": "Chris Hager <chris@linuxuser.at>",
   "repository": "https://github.com/metachris/typescript-boilerplate",
@@ -21,6 +21,7 @@
     "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
     "test": "jest",
     "clean": "rm -rf dist build package",
+    "copy": "copyfiles --flat src/*.css ./dist/",
     "ts-node": "ts-node",
     "docs": "typedoc --entryPoints src/main.ts",
     "build": "tsc -p tsconfig.json",
@@ -39,9 +40,11 @@
     "@typescript-eslint/parser": "^4.19.0",
     "esbuild": "^0.11.11",
     "eslint": "^7.22.0",
+    "tslib": "2.3.1",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.4",
     "ts-node": "^9.1.1",
+    "tslint-config-prettier": "^1.18.0",
     "typedoc": "^0.20.35",
     "typescript": "^4.2.3"
   }

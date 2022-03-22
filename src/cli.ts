@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { foo } from './main'
 
-foo()
+import { SimpleGrid } from "./main";
+SimpleGrid;

@@ -1,0 +1,14 @@
+#stts-wrapper table {
+  width: 100%;
+  border-spacing: 0px;
+}
+
+#stts-wrapper th {
+  text-align: left;
+  border-bottom: 2px #ccc solid;
+}
+
+#stts-wrapper td {
+  border-color: gray;
+  border-bottom: 1px #ccc solid;
+}
